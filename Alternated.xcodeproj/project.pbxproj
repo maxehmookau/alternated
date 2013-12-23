@@ -22,7 +22,7 @@
 		4DF78DCA1868449A002748A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF78DA91868449A002748A1 /* UIKit.framework */; };
 		4DF78DD21868449A002748A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DF78DD01868449A002748A1 /* InfoPlist.strings */; };
 		4DF78DD41868449A002748A1 /* AlternatedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF78DD31868449A002748A1 /* AlternatedTests.m */; };
-		4DF78DDE18686F5A002748A1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DF78DDD18686F5A002748A1 /* background.jpg */; };
+		4DF78DE01868800C002748A1 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF78DDF1868800C002748A1 /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 		4DF78DCF1868449A002748A1 /* AlternatedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlternatedTests-Info.plist"; sourceTree = "<group>"; };
 		4DF78DD11868449A002748A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DF78DD31868449A002748A1 /* AlternatedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlternatedTests.m; sourceTree = "<group>"; };
-		4DF78DDD18686F5A002748A1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../../Downloads/background.jpg; sourceTree = "<group>"; };
+		4DF78DDF1868800C002748A1 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,7 @@
 		4DF78D991868449A002748A1 = {
 			isa = PBXGroup;
 			children = (
+				4DF78DDF1868800C002748A1 /* background.png */,
 				4DF78DAB1868449A002748A1 /* Alternated */,
 				4DF78DCD1868449A002748A1 /* AlternatedTests */,
 				4DF78DA41868449A002748A1 /* Frameworks */,
@@ -117,7 +118,6 @@
 		4DF78DAB1868449A002748A1 /* Alternated */ = {
 			isa = PBXGroup;
 			children = (
-				4DF78DDD18686F5A002748A1 /* background.jpg */,
 				4DF78DB41868449A002748A1 /* MWAppDelegate.h */,
 				4DF78DB51868449A002748A1 /* MWAppDelegate.m */,
 				4DF78DB71868449A002748A1 /* Main.storyboard */,
@@ -238,9 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF78DC11868449A002748A1 /* Images.xcassets in Resources */,
+				4DF78DE01868800C002748A1 /* background.png in Resources */,
 				4DF78DB01868449A002748A1 /* InfoPlist.strings in Resources */,
 				4DF78DB91868449A002748A1 /* Main.storyboard in Resources */,
-				4DF78DDE18686F5A002748A1 /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
