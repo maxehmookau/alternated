@@ -29,7 +29,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [_questionLbl setText:[[NSUserDefaults standardUserDefaults] valueForKey:@"question"]];
-    NSDate *date = [NSDate date];
+    NSDate *date = [[NSUserDefaults standardUserDefaults] valueForKey:@"date"];
     int days = ([[NSDate new] timeIntervalSinceDate:date] / (60 * 60 * 24));
     NSLog(@"%d", days % 2);
     if (days % 2) {
